@@ -1,56 +1,97 @@
-/* body styling */
+
+/* Earthy portfolio style - shared by all pages */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Main page */
 body {
-    background-color: LightBlue;
-    font-family:TimesNewRoman;
-    color: #263d60;
-    margin: 0;
+    background-color: #e8e5d5;
+    color: #394638;
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 25px auto;
     padding: 20px;
 }
 
-/* Headings */
+/* Main headings */
 h1 {
+    color: #354b38;
     text-align: center;
-    color: #263d60;
+    margin-bottom: 15px;
 }
 
-h2 {
-    color: #263d60;
-    border-bottom: 2px solid pink;
+h2, h3, h4 {
+    color: #52664b;
+    border-bottom: 2px solid #a3ad8b;
     padding-bottom: 5px;
 }
 
-/* Navigation */
+/* Navigation bar */
 nav {
-    text-align: center;
-    padding: 15px;
-    background-color: white;
-    border: 2px solid #263d60;
+    background-color: #d2d8c2;
+    border: 2px solid #778568;
     border-radius: 8px;
-    color: #263d60;
-    margin: 10px;
+    margin: 15px 0 25px;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #354b38;
+    display: inline-block;
     font-weight: bold;
+    margin: 3px 7px;
+    text-decoration: none;
 }
 
-/* Boxes around sections */
+nav a:hover {
+    color: #8a6748;
+    text-decoration: underline;
+}
+
+/* Links */
+a {
+    color: #61734e;
+    overflow-wrap: anywhere;
+}
+
+a:hover {
+    color: #8a6748;
+}
+
+/* Content sections */
 section {
-    background-color: white;
-    border: 2px solid #263d60;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px ;
+    background-color: #f7f4e9;
+    border: 1px solid #a3ad8b;
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 15px;
 }
 
+/* Lists */
+ul {
+    padding-left: 28px;
+}
+
+li {
+    margin-bottom: 5px;
+}
 
 /* Images */
 img {
-    max-width: 100%;
+    border: 2px solid #a3ad8b;
+    border-radius: 6px;
     height: auto;
-    border: 3px solid pink;
-    border-radius: 5px;
+    max-width: 100%;
 }
 
-/* Image gallery */
+/* Photo gallery */
 .gallery {
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -58,25 +99,64 @@ img {
 }
 
 figure {
-    border: 2px solid #263d60;
-    background-color: white;
-    padding: 10px;
+    background-color: #f7f4e9;
+    border: 1px solid #a3ad8b;
+    border-radius: 8px;
     margin: 10px;
-    width: 250px;
+    padding: 12px;
     text-align: center;
+    width: 250px;
 }
 
 figcaption {
+    color: #52664b;
     margin-top: 10px;
+}
+
+/* Resume contact information */
+.resume-contact {
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+/* Resume sections */
+.resume-section {
+    background-color: #f7f4e9;
+    border: 1px solid #a3ad8b;
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 15px 20px;
+}
+
+/* Resume job entries */
+.resume-entry {
+    margin: 15px 0 20px;
+}
+
+.resume-entry-heading {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 15px;
+    justify-content: space-between;
+}
+
+.resume-entry-heading p {
+    margin: 0;
+}
+
+.resume-date {
+    color: #657153;
+    font-style: italic;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    background-color: white;
-    border: 2px solid #263d60;
-    padding: 15px;
+    background-color: #d2d8c2;
+    border: 1px solid #778568;
+    border-radius: 8px;
     margin-top: 20px;
+    padding: 15px;
+    text-align: center;
 }
-
 
