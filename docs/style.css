@@ -1,11 +1,10 @@
 
-/* Earthy portfolio style - shared by all pages */
 
 * {
     box-sizing: border-box;
 }
 
-/* Main page */
+
 body {
     background-color: #e8e5d5;
     color: #394638;
@@ -17,7 +16,7 @@ body {
     padding: 20px;
 }
 
-/* Main headings */
+
 h1 {
     color: #354b38;
     text-align: center;
@@ -30,7 +29,7 @@ h2, h3, h4 {
     padding-bottom: 5px;
 }
 
-/* Navigation bar */
+
 nav {
     background-color: #d2d8c2;
     border: 2px solid #778568;
@@ -53,7 +52,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Links */
+
 a {
     color: #61734e;
     overflow-wrap: anywhere;
@@ -63,7 +62,7 @@ a:hover {
     color: #8a6748;
 }
 
-/* Content sections */
+
 section {
     background-color: #f7f4e9;
     border: 1px solid #a3ad8b;
@@ -72,7 +71,7 @@ section {
     padding: 15px;
 }
 
-/* Lists */
+
 ul {
     padding-left: 28px;
 }
@@ -81,15 +80,15 @@ li {
     margin-bottom: 5px;
 }
 
-/* Images */
+
 img {
     border: 2px solid #a3ad8b;
-    border-radius: 6px;
+    border-radius: 15px;
     height: auto;
-    max-width: 100%;
+    max-width: 500px;
 }
 
-/* Photo gallery */
+
 .gallery {
     align-items: flex-start;
     display: flex;
@@ -105,7 +104,7 @@ figure {
     margin: 10px;
     padding: 12px;
     text-align: center;
-    width: 250px;
+    width: 600px;
 }
 
 figcaption {
@@ -113,13 +112,13 @@ figcaption {
     margin-top: 10px;
 }
 
-/* Resume contact information */
+
 .resume-contact {
     text-align: center;
     overflow-wrap: anywhere;
 }
 
-/* Resume sections */
+
 .resume-section {
     background-color: #f7f4e9;
     border: 1px solid #a3ad8b;
@@ -128,7 +127,7 @@ figcaption {
     padding: 15px 20px;
 }
 
-/* Resume job entries */
+
 .resume-entry {
     margin: 15px 0 20px;
 }
