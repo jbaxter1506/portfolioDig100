@@ -1,0 +1,277 @@
+:: StoryTitle
+Gone Fishin'
+
+
+:: StoryData
+{
+  "ifid": "062221E4-A2E0-45D1-8B2F-66D05A32A343",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "The Begining",
+  "tag-colors": {
+    "Wrong-Answers": "red",
+    "right-Answers": "green",
+    "MainTimeLine": "blue",
+    "BranchTL": "yellow"
+  },
+  "zoom": 1
+}
+
+
+:: \ A Globe\  [Wrong-Answers] {"position":"550,725","size":"100,100"}
+You are... INCORRECT you will not cross my bridge today.
+
+
+Try to [[Answer]] again?
+
+
+
+
+:: \ Time\  [Wrong-Answers] {"position":"1600,400","size":"100,100"}
+You are... INCORRECT you will not cross my bridge today.
+
+
+Go Back in time to try the [[Riddle]] again?
+
+
+
+
+:: \ a hole [Wrong-Answers] {"position":"1600,500","size":"100,100"}
+You are... INCORRECT you will not cross my bridge today.
+
+
+Go Back in time to try the [[Riddle]] again?
+
+
+:: //PORTAL?!// [BranchTL] {"position":"625,425","size":"100,100"}
+''Sprout'': oh boy well yes... Welcome to the land of Aurathen. Don't worry you arnt far from home, you just need to make it to the top of the mountain, its just on the ouskirts of the [[borrow]]
+
+
+:: A Map [right-Answers MainTimeLine] {"position":"850,800","size":"100,100"}
+You are... CORRECT, congradulations sprout you can cross my [[bridge]].
+
+''Troll 2'' "Good Luck Sprout Todays the Day!"
+
+
+:: A Painting\  [Wrong-Answers] {"position":"550,825","size":"100,100"}
+You are... INCORRECT you will not cross my bridge today.
+
+
+Try to [[Answer]] again?
+
+
+
+
+:: Answer [MainTimeLine] {"position":"850,675","size":"100,100"}
+My riddle is a s follows "I have cities but no houses, mountains but no trees, water but no fish. What am I?"
+
+[[ A Globe ]]
+
+[[A Painting ]]
+
+[[A Map]]
+"
+
+
+:: Fishing Rod [MainTimeLine] {"position":"850,550","size":"100,100"}
+''Sprout'': Thank you Tiki! You wave goodbye and head [[deeper]] into the forest.
+
+
+:: Footsteps [right-Answers MainTimeLine] {"position":"1350,675","size":"100,100"}
+You are... CORRECT, congradulations sprout you can [[cross my bridge.]]
+
+''Troll 1'' "happy fishing"
+
+
+:: Into the thicket [MainTimeLine] {"position":"650,300","size":"100,100"}
+Oh Hello! 
+We don't see many [[strangers]] around here. I'm Sprout  welcome to the [[borrow]].  
+
+
+:: No [BranchTL] {"position":"625,175","size":"100,100"}
+No? 
+That's ok I hope you find what you are looking for. If you go Into the thicket across the medow you will find a village you should be able to get some better help there.
+Good day to you traveller!
+
+//You follow the small cats directions to the village. Eventually you find someone who can take you home. You go through the portal never to be seen in Aurathen again.//
+
+Back to [[The Begining]] 
+
+
+:: Passion Fruit [Wrong-Answers] {"position":"1600,800","size":"100,100"}
+You are... INCORRECT you will not cross my bridge today.
+
+
+Go Back in time to [[try again]]?
+
+
+:: Pineapple [right-Answers MainTimeLine] {"position":"1350,800","size":"100,100"}
+''Franky'' You are...  CORRECT
+
+Congradulations Sprout you may passover my bridge!
+
+
+:: Pomagranate [Wrong-Answers] {"position":"1600,700","size":"100,100"}
+You are... INCORRECT you will not cross my bridge today.
+
+
+Go Back in time to [[try again]]?
+
+
+:: Riddle [MainTimeLine] {"position":"1350,550","size":"100,100"}
+We're ready Mr.Troll. ''Troll 1'' " My riddle is as followes: The more you take the more you leave behind. What am I"
+
+[[Footsteps]]
+
+[[ a hole]]
+
+[[ Time ]]
+
+
+:: The Begining [MainTimeLine] {"position":"400,300","size":"100,100"}
+<img src="C:\Users\Surface LaptopGo\OneDrive\PSU 26-27\ENG202\images\towering-trees-enchanted-forest_961875-464234.avif" width="850px">
+
+
+You open your eyes to trees swaying above you and the soft sound of birds chirping. "Where am I" you mutter. You don't remember falling asleep out here. The last thing you remember was walking onto a strange path folowing a trail of medical [[herbs.]] 
+
+
+:: Yes [MainTimeLine] {"position":"1025,300","size":"100,100"}
+Thank you! it has always been my dream to go fishing in the starlight lake. I've heard they are the yummiest fish out there :3. However I've never been able to make it there, the final bridge is guarded by a fearsome [[troll]]
+
+
+:: across [MainTimeLine] {"position":"1100,800","size":"100,100"}
+After a considerable hike up the mountain you find the final bridge. It is a draw bridge guarded by the biggest troll you have ever seen. 
+
+'''SPROUT'' "Hello good Franky" 
+(t8n:"slide-right")+(t8n-delay:2s)[''Troll 3/Franly'' "Hello my friend, here to [[try again]]?"]
+(t8n:"slide-right")+(t8n-delay:2s)['''SPROUT'' "We will beat your riddle this time!" ]
+
+
+:: borrow [MainTimeLine] {"position":"775,300","size":"100,100"}
+This is the small patch of land I call home, while your here would you [[help]] me?
+
+
+:: bridge [MainTimeLine] {"position":"975,800","size":"100,100"}
+''Sprout'' 'This is so fun, I'm so glad that you came with me even if we don't get [[across]] the bridge, i made a friend at least. 
+
+
+
+:: bridge. [MainTimeLine] {"position":"1225,550","size":"100,100"}
+The troll hears you approach and stands up.  ''Troll 1'' " Answer my [[Riddle]] you must to cross, Answer wrong and you have lost"
+
+
+:: cross my bridge. [MainTimeLine] {"position":"1225,675","size":"100,100"}
+You move across the bridge waving to the troll on your way. You walk a little ways farther [[into the forest.]]
+
+
+:: cross. [MainTimeLine] {"position":"1275,425","size":"100,100"}
+The Sun is starting to set we should leave before it gets [[dark.]]
+
+
+:: dark. [MainTimeLine] {"position":"1150,425","size":"100,100"}
+You start walking through the forest. Your first stop is at a small [[stump]].
+
+
+:: deeper [MainTimeLine] {"position":"975,550","size":"100,100"}
+As you walk you notice a small rope bridge in the distence. You walk into the clearing around the mouth of the bridge and you notice a [[small grey lump]] in the middle of the bridge. 
+
+
+:: fishing [MainTimeLine] {"position":"725,550","size":"100,100"}
+''Tiki'': of course my friend. Seems like your brining someone aling with you this time. Well here you go goodluck! (text-style:"italic","subscript")[Pick up [[Fishing Rod]]]
+
+
+:: fruit [BranchTL] {"position":"1225,125","size":"100,100"}
+''Sprout'' I've tried to cross but I can't figure out the last trolls [[riddle]] I always get the fruit wrong. The troll requires you to choose a fruit to cross.
+
+
+:: help [MainTimeLine] {"position":"900,300","size":"100,100"}
+(b4r:"none","none","solid")+(b4r-colour:magenta,white,(hsl:210,0.8039,0.5,0.5))[[Yes]]
+
+
+(b4r:"none","none","solid")+(b4r-colour:magenta,white,(hsl:210,0.8039,0.5,0.5))[[No]]
+
+
+:: herbs. [MainTimeLine] {"position":"525,300","size":"100,100"}
+<img src="https://tse2.mm.bing.net/th/id/OIP.jWcJx7e63Z0ju4Td98Bb3QHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="850px">
+
+You stumbled into a clearing to see a small gazebo over run with vines and decay. Now you were waking up in a feild //Wonderful// you think. After brushing yourself off you start walking [[Into the thicket]]. When all of a sudden you hear a small voice.
+
+
+:: hole [MainTimeLine] {"position":"900,425","size":"100,100"}
+You see a small pair of eyes looking back at you. A small raccoon pokes his head through the hole "how can I help you folks [[today]]?"
+
+
+:: into the forest. [MainTimeLine] {"position":"1100,675","size":"100,100"}
+You find the second bridge after a short time, this one is a small stone bridge. You hear a loud [[snore]] from underneath the bridge. 
+
+
+:: portal [BranchTL] {"position":"550,550","size":"100,100"}
+[[//PORTAL?!//]]  "w-what do you mean portal" you stutter.
+
+
+:: riddle [MainTimeLine] {"position":"1275,300","size":"100,100"}
+''Sprout'' I've tried to cross but I can't figure out the last trolls riddle. There are three trolls that asks you three diffrent riddles.  i always get the [[fruit]] wrong for the last troll and I cant seem to [[cross.]] 
+
+
+:: small grey lump [MainTimeLine] {"position":"1100,550","size":"100,100"}
+As you walk you notice a small rope bridge in the distence. You walk into the clearing around the mouth of the bridge and you notice a small grey lump "It's the Troll" sprout whispers to you in the middle of the [[bridge.]] 
+
+
+:: snore [MainTimeLine] {"position":"975,675","size":"100,100"}
+As you Step onto the bridge a voice floats up to you ''Troll 2'' " Answer my Riddle you must to cross, [[Answer]] wrong and you have lost"
+
+
+:: strangers [BranchTL] {"position":"500,425","size":"100,100"}
+Not many people are able to make it through the [[portal]]
+
+
+:: stump [MainTimeLine] {"position":"1025,425","size":"100,100"}
+ Your first stop is at a small stump you lean down to look at through the small [[hole]].
+
+
+:: today [MainTimeLine] {"position":"775,425","size":"100,100"}
+''Sprout'': "Hello Tiki we're going [[fishing]], can I borrow your fishing rod again?"
+
+
+:: troll [MainTimeLine] {"position":"1150,300","size":"100,100"}
+''Sprout'' I've tried to cross but I can't figure out the last trolls [[riddle]] I always get the [[fruit]] wrong. 
+
+
+:: try again [MainTimeLine] {"position":"1225,800","size":"100,100"}
+''Franky'' "We will see. My riddles as follows i wear a crown but i am not royalty. slice me open- sweetness I bring.
+
+[[Pomagranate]]
+
+[[Pineapple]]
+
+[[Passion Fruit]]
+
+
+:: StoryStylesheet [stylesheet]
+/* Dark forest adventure theme */
+
+body {
+    background-color: #17251c;
+    color: #e0e8d8;
+    font-family: Georgia, serif;
+}
+
+tw-story {
+    background-color: #17251c;
+    color: #e0e8d8;
+}
+
+tw-passage {
+    background-color: #263b2d;
+    border: 2px solid #71866a;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+tw-link {
+  color: #A65D32;
+}
+
+tw-link:hover {
+  color: #783D20;
+}
